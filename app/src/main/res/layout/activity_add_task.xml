@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="30dp"
+    app:cardBackgroundColor="@color/pop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Add Your Task"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:id="@+id/task"
+            android:layout_height="wrap_content"
+            android:hint="Task"
+            android:textColor="@color/white"
+            android:paddingStart="15dp"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="25sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="40dp"
+            />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

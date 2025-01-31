@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#03001C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="top">#080432</color>
+    <color name="pop">#340F62</color>
+    <color name="tasdone">#6C12DB</color>
+    <color name="btn">#4C3BCF</color>
+    <color name="cha">#5F5F66</color>
+
+
+</resources>

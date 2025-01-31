@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "988495427759",
+    "firebase_url": "https://e-commerce-930ec-default-rtdb.firebaseio.com",
+    "project_id": "e-commerce-930ec",
+    "storage_bucket": "e-commerce-930ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988495427759:android:f6c6809dceab7848d07c5a",
+        "android_client_info": {
+          "package_name": "com.example.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988495427759-og0m53i0l5kc8qhaujm0bfeni7ufnfne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBQleZo2lpc_oqQ_pFU4SEBsLV_ucTdO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988495427759-og0m53i0l5kc8qhaujm0bfeni7ufnfne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
