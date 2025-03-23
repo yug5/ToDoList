@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         val swipe = object : SwipeGesture(this) {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 when (direction) {
+
                     ItemTouchHelper.LEFT -> {
                         val position = viewHolder.absoluteAdapterPosition
                         val taskKey = adapter.taskKeys[position]
